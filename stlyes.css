@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "dot";
+  src: url(fonts/DungGeunMo.woff2);
+}
+body {
+  font-family: "dot";
+}
