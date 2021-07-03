@@ -25,15 +25,41 @@
       }
       .jb-text {
         position: absolute;
-        top: 50%;
+        top: 30%;
         width: 100%;
       }
       .jb-text p {
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         margin-top: -24px;
         text-align: center;
-        font-size: 48px;
+        font-size: 100px;
         color: #ffffff;
+      }
+      #test {
+        position: absolute;
+        top: 37%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .img {
+        width: 230px;
+        height: auto;
+      }
+      .pic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      input {
+        width: 300px;
+        height: 50px;
+        border-radius: 16px;
+        opacity: 90%;
+        font-size: larger;
+      }
+      #naver {
+        padding-top: 9px;
       }
     </style>
   </head>
@@ -44,7 +70,33 @@
         <strong>Your browser does not support the video tag.</strong>
       </video>
       <div class="jb-text">
-        <p>WELCOME. 은호</p>
+        <p>WELCOME.. 은호</p>
+      </div>
+      <div id="test">
+        <div class="pic" id="naver">
+          <a href="https://www.naver.com">
+            <img class="img" src="img/Site_Logo/naver.png" />
+          </a>
+          <form action="https://search.naver.com/search.naver">
+            <input name="q" type="text" placeholder="Naver 검색" />
+          </form>
+        </div>
+        <div class="pic">
+          <a href="https://www.google.com">
+            <img class="img" src="img/Site_Logo/google.png" />
+          </a>
+          <form action="https://www.google.com/search">
+            <input name="q" type="text" placeholder="Google 검색" />
+          </form>
+        </div>
+        <div class="pic">
+          <a href="https://www.youtube.com">
+            <img class="img" src="img/Site_Logo/Youtube-Logo.png" />
+          </a>
+          <form action="https://www.youtube.com/results?search_query">
+            <input name="q" type="text" placeholder="youtube 검색" />
+          </form>
+        </div>
       </div>
     </div>
   </body>
