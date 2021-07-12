@@ -1,0 +1,15 @@
+@import "usercomponents/screenheader.css";
+@import "usercomponents/personalcolor.css";
+@import "reset.css";
+
+body {
+  background-color: var(--gagubrown);
+  height: auto;
+}
+footer {
+  margin-left: 50px;
+  position: absolute;
+  bottom: 50px;
+  color: whitesmoke;
+  line-height: 30px;
+}
