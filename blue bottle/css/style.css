@@ -5,6 +5,7 @@
 body {
   background-color: var(--gagubrown);
   height: auto;
+  font-family: "Source Sans Pro", sans-serif;
 }
 footer {
   margin-left: 50px;
